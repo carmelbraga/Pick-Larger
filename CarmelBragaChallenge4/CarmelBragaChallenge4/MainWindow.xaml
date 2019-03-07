@@ -1,0 +1,21 @@
+﻿<Window x:Class="CarmelBragaChallenge4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarmelBragaChallenge4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="Pink" HorizontalAlignment="Left" Height="325" Margin="250,40,0,0" Stroke="Black" VerticalAlignment="Top" Width="300"/>
+        <Button Background="Black" Foreground="Pink" Content="2" HorizontalAlignment="Left" Margin="419,157,0,0" VerticalAlignment="Top" Width="75" Height="34"/>
+        <Button Click="buttonOneClick()" Background="Black" Foreground="Pink" Content="1" HorizontalAlignment="Left" Margin="300,157,0,0" VerticalAlignment="Top" Width="75" Height="34" RenderTransformOrigin="0.452,1.219"/>
+        <TextBox VerticalContentAlignment="Center" TextAlignment="Center" Background="Black" Foreground="Pink" HorizontalAlignment="Left" Height="70" Margin="300,70,0,0" TextWrapping="Wrap" Text="Which one will contain the higher number? Make your choice, view your score, then click NEXT." VerticalAlignment="Top" Width="194"/>
+        <TextBox Name="BoxOne" VerticalContentAlignment="Center" TextAlignment="Center" Background="Black" Foreground="Pink" HorizontalAlignment="Left" Height="39" Margin="318,214,0,0" TextWrapping="Wrap" Text="?" VerticalAlignment="Top" Width="40"/>
+        <TextBox Name ="BoxTwo" TextAlignment="Center" VerticalContentAlignment="Center" Background="Black" Foreground="Pink" HorizontalAlignment="Left" Height="39" Margin="435,214,0,0" TextWrapping="Wrap" Text="?" VerticalAlignment="Top" Width="40" RenderTransformOrigin="0.387,1.307"/>
+        <TextBox Name="RightBox" BorderBrush="Pink" Background="Pink" HorizontalAlignment="Left"  TextAlignment="Center" VerticalContentAlignment="Center" Height="24" Margin="277,278,0,0" TextWrapping="Wrap" Text="Right " VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.523,-0.579"/>
+        <TextBox Name="WrongBox" BorderBrush="Pink" Background="Pink" HorizontalAlignment="Left"  TextAlignment="Center" VerticalContentAlignment="Center" Height="25" Margin="277,307,0,0" TextWrapping="Wrap" Text="Wrong " VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.488,1.02"/>
+        <Button Background="Black" Foreground="Pink" Content="NEXT" HorizontalAlignment="Left" Margin="419,295,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

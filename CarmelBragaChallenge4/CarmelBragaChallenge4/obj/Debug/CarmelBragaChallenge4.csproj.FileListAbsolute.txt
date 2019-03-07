@@ -1,0 +1,3 @@
+C:\Users\carme\source\repos\CarmelBragaChallenge4\CarmelBragaChallenge4\obj\Debug\CarmelBragaChallenge4.csprojAssemblyReference.cache
+C:\Users\carme\source\repos\CarmelBragaChallenge4\CarmelBragaChallenge4\obj\Debug\App.g.cs
+C:\Users\carme\source\repos\CarmelBragaChallenge4\CarmelBragaChallenge4\obj\Debug\CarmelBragaChallenge4_MarkupCompile.cache
